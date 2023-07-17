@@ -1,0 +1,99 @@
+.responsive-div {
+      width: 100%;
+      height: 0;
+      padding-bottom: 100%;
+  }
+  
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.logo img {
+  height: 240px;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 5rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+}
+
+.menu a:hover {
+  color: rgb(201, 108, 27);
+}
+    .card {
+        width: 300px;
+        max-width: 100%;
+        margin: 20px auto 0;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 4px;
+    }
+
+    .card-img {
+        width: 100%;
+        height: auto;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+    }
+
+    .card-content {
+        padding: 16px;
+    }
+
+    .card-title {
+        font-size: 23px;
+        font-weight: bold;
+        margin-bottom: 8px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .card-description {
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+        color: #666;
+    }
+
+    h1{
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+    }
+
+    .card-container {
+      display: flex;
+    }
+    .divider {
+      border: none;
+      border-top: 1px solid #eee; 
+      margin: 20px 0; 
+    }
+
+    .blue-button {
+      background-color: #007BFF; /* Este es un tono de azul, pero puedes ajustarlo a tu preferencia */
+      color: white; /* Color de texto blanco */
+      border: none; /* Elimina el borde predeterminado del botón */
+      padding: 10px 20px; /* Agrega un poco de padding alrededor del texto del botón */
+      cursor: pointer; /* Cambia el cursor al pasar el ratón sobre el botón */
+      font-size: 16px; /* Ajusta el tamaño de la fuente en el botón */
+      border-radius: 5px; /* Agrega bordes redondeados al botón */
+      transition: background-color 0.3s; /* Agrega una transición suave al cambiar el color de fondo */
+    }
+    
+    .blue-button:hover {
+      background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón sobre el botón */
+    }
+    /* galleria images */
